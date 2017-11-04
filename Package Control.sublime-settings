@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"CMake",
+		"Colorsublime",
+		"GitGutter",
+		"HexViewer",
+		"Markdown Preview",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-pep8"
+	]
+}

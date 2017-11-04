@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+#pragma once
+#ifndef ${1:${TM_FILENAME/^(.*)\..*$/\U$1_H/}}
+#define ${1}
+
+#endif
+
+]]></content>
+	<tabTrigger>guard</tabTrigger> -->
+	<scope>source.c, source.c++, source.objc, source.objc++</scope>
+	<description>guard #ifndef FILE_H... #define... #endif</description>
+</snippet>

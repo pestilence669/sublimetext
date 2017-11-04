@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+#!/bin/bash
+# vim: set ts=4 sw=4 noet fileencoding=utf-8:
+
+]]></content>
+	<tabTrigger>hdr</tabTrigger> -->
+	<scope>source.shell</scope>
+</snippet>

@@ -1,0 +1,4 @@
+{
+	"selector": "source.php",
+	"cmd": ["php", "$file"]
+}
