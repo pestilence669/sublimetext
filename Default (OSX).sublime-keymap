@@ -1,3 +1,5 @@
 [
 	{ "keys": ["super+alt+up"], "command": "switch_file", "args": {"extensions": ["c++", "cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm"]} },
+	{ "keys": ["super+alt+c"], "command": "open_cmakelists", "args": {"extensions": ["c++", "cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm"]} },
+	{ "keys": ["super+alt+'"], "command": "to_python_single_quotes" },
 ]

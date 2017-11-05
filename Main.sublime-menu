@@ -1,0 +1,42 @@
+[
+	{
+		"id": "goto",
+		"children": [
+        	{ "caption": "-" },
+            {
+            	"caption": "Open CMakeLists.txt",
+                "command": "open_cmakelists"
+            }
+		]
+	},
+	{
+		"id": "tools",
+		"children": [
+		    {
+		        "id": "pablo",
+		        "caption": "Pablo",
+		        "children":
+		        [
+		            {
+		                "caption": "C++",
+		                "children":
+		                [
+		                    {
+		                        "command": "open_cmakelists"
+		                    },
+		                ]
+		            },
+		            {
+		                "caption": "Python",
+		                "children":
+		                [
+		                    {
+		                        "command": "to_python_single_quotes"
+		                    },
+		                ]
+		            }
+		        ]
+		    }
+		]
+	},
+]
