@@ -10,11 +10,14 @@
 		"DocBlockr",
 		"GitGutter",
 		"HexViewer",
+		"JSON Reindent",
 		"Markdown Preview",
+		"MarkdownHighlighting",
 		"Package Control",
 		"SublimeLinter",
 		"SublimeLinter-contrib-clang",
 		"SublimeLinter-pep8",
-		"VimModelines"
+		"VimModelines",
+		"UnitTesting"
 	]
 }
