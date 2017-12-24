@@ -1,0 +1,9 @@
+{
+    "user": {
+        "linters": {
+            "clang": {
+                "extra_flags": "-std=c++14"
+            }
+        }
+    }
+}
