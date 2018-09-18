@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+# vim: set ts=2 sw=2 et:
+
+]]></content>
+	<tabTrigger>hdr</tabTrigger> -->
+	<scope>source.terraform</scope>
+</snippet>
