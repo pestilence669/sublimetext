@@ -5,6 +5,7 @@ from __future__ import print_function
 import sublime
 import sublime_plugin
 import os
+import re
 
 
 def plugin_loaded():
@@ -69,6 +70,29 @@ class ToPythonSingleQuotesCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         def convert(s):
             return s.replace("'", "''").replace('"', "'")
+
+        for region in self.view.sel():
+            if region.empty():
+                region = self.view.line(region)
+
+            self.view.replace(edit, region, convert(self.view.substr(region)))
+
+
+class RgbToHex(sublime_plugin.TextCommand):
+    RX = re.compile(r'^(\d{1,3})\D+(\d{1,3})\D+(\d{1,3})\D*(\d{1,3})?$')
+
+    def description(self):
+        return 'Convert three or four decimal numbers to hex'
+
+    def run(self, edit):
+        def convert(s):
+            '''Convert to hex or return the original string'''
+            match = self.RX.match(s)
+            if match:
+                numbers = map(int, filter(None, match.groups()))
+                return ''.join('{:02x}'.format(i) for i in numbers)
+            else:
+                return s
 
         for region in self.view.sel():
             if region.empty():

@@ -7,4 +7,8 @@
         "caption": "Pablo: Convert double quotes to single (Python) quotes",
         "command": "to_python_single_quotes"
     },
+    {
+        "caption": "Pablo: Convert RGB values to hex",
+        "command": "rgb_to_hex"
+    },
 ]
