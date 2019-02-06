@@ -90,7 +90,7 @@ class RgbToHex(sublime_plugin.TextCommand):
             match = self.RX.match(s)
             if match:
                 numbers = map(int, filter(None, match.groups()))
-                return ''.join('{:02x}'.format(i) for i in numbers)
+                return '#' + ''.join('{:02x}'.format(i) for i in numbers)
             else:
                 return s
 
