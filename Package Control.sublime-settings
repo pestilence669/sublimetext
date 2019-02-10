@@ -13,12 +13,13 @@
 		"HexViewer",
 		"JSON Reindent",
 		"MarkdownHighlighting",
+		"MarkdownPreview",
 		"Package Control",
+		"Pretty JSON",
 		"SublimeLinter",
+		"SublimeLinter-clang",
 		"SublimeLinter-pep8",
 		"UnitTesting",
-		"VimModelines",
-		"MarkdownPreview",
-		"SublimeLinter-clang"
+		"VimModelines"
 	]
 }
