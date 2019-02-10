@@ -1,12 +1,13 @@
 {
 	"auto_complete_commit_on_tab": true,
-	"color_scheme": "Packages/User/SublimeLinter/Abyss (SL).tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Abyss.tmTheme",
 	"drag_text": false,
 	"font_size": 19,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"MarkdownHighlighting",
 		"Vintage"
 	],
 	"preview_on_click": false,

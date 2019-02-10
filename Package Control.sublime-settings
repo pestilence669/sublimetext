@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"MarkdownHighlighting"
 	],
 	"installed_packages":
 	[
@@ -11,13 +12,13 @@
 		"GitGutter",
 		"HexViewer",
 		"JSON Reindent",
-		"Markdown Preview",
 		"MarkdownHighlighting",
 		"Package Control",
 		"SublimeLinter",
-		"SublimeLinter-contrib-clang",
 		"SublimeLinter-pep8",
+		"UnitTesting",
 		"VimModelines",
-		"UnitTesting"
+		"MarkdownPreview",
+		"SublimeLinter-clang"
 	]
 }
