@@ -8,6 +8,7 @@
 	"ignored_packages":
 	[
 		"MarkdownHighlighting",
+		"Rust",
 		"Vintage"
 	],
 	"preview_on_click": false,
