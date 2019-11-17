@@ -20,5 +20,6 @@
 	"shift_tab_unindent": true,
 	"show_encoding": true,
 	"theme": "Adaptive.sublime-theme",
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"binary_file_patterns": [".svn/", ".git/", "node_modules/", "bower_components/", "*.log"]
 }
