@@ -6,9 +6,11 @@
 	],
 	"installed_packages":
 	[
+		"Babel",
 		"CMake",
 		"Colorsublime",
 		"DocBlockr",
+		"FileIcons",
 		"GitGutter",
 		"HexViewer",
 		"JSON Reindent",
@@ -19,7 +21,7 @@
 		"Rust Enhanced",
 		"SublimeLinter",
 		"SublimeLinter-clang",
-		"SublimeLinter-pep8",
+		"SublimeLinter-pycodestyle",
 		"UnitTesting",
 		"VimModelines"
 	]
