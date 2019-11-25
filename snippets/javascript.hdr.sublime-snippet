@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+// vim: set ts=2 sw=2 et fileencoding=utf-8:
+
+]]></content>
+	<tabTrigger>hdr</tabTrigger> -->
+	<scope>source.js</scope>
+</snippet>
